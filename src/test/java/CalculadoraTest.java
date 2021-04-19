@@ -18,6 +18,8 @@ public class CalculadoraTest {
         int resultado = calculadora.resta(5,2);
         assertEquals(3,resultado);
     }
+
+
     @Test
     public void pruebaMulti(){
         Calculadora calculadora = new Calculadora();
